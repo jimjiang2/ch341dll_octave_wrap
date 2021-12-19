@@ -1,0 +1,5 @@
+autoload("ch341_open_device" ,"ch341dll_wrap.oct")
+autoload("ch341_close_device","ch341dll_wrap.oct")
+autoload("ch341_i2c_sr" ,"ch341dll_wrap.oct")
+autoload("ch341_i2c_sw" ,"ch341dll_wrap.oct")
+autoload("ch341_i2c_st" ,"ch341dll_wrap.oct")
